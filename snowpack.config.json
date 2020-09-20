@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "mount:src": "mount app --to /",
+    "mount:webmodules": "mount $WEB_MODULES --to /web_modules"
+  },
+  "install": [
+    "@webformula/pax-core"
+  ],
+  "installOptions": {
+    "treeshake": false
+  },
+  "buildOptions": {
+    "baseUrl": "./"
+  }
+}

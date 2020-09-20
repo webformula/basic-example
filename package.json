@@ -1,0 +1,25 @@
+{
+  "name": "basic-example",
+  "version": "1.0.0",
+  "description": "Basic example of building an application with pax-core",
+  "main": "index.js",
+  "scripts": {
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webformula/basic-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webformula/basic-example/issues"
+  },
+  "homepage": "https://github.com/webformula/basic-example#readme",
+  "dependencies": {
+    "@webformula/pax-core": "^0.13.0"
+  },
+  "devDependencies": {
+    "snowpack": "^2.11.1"
+  }
+}
